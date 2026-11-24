@@ -1,0 +1,15 @@
+/* 03 · Snow Globe — frosted ice-blue light theme, glass panels, steel-blue ink */
+:root{--bg:#dcebf7;--ink:#12304d;--ink-dim:rgba(18,48,77,.8);--accent:#2f78ae;--accent-ink:#ffffff;--panel:rgba(255,255,255,.66);--panel-line:rgba(47,120,174,.32);--radius:26px;
+ --spark:#ffffff,#d8ecff,#9cc9ee;--bloom:rgba(255,255,255,.95);--tint-bg:linear-gradient(180deg,rgba(228,242,254,.6),rgba(204,226,246,.94));--tint-max:.95;--burst-x:.5;--burst-y:.45;--focus:50% 40%;--orn:var(--o-snow)}
+.opening::before{background:linear-gradient(180deg,rgba(232,244,255,.78),rgba(232,244,255,0) 42%,rgba(232,244,255,0) 72%,rgba(232,244,255,.55))}
+.sec-hero::before{background:linear-gradient(180deg,rgba(228,242,254,.7),rgba(228,242,254,0) 48%)}
+.op-title{font-style:italic;font-weight:400}.op-eyebrow{color:#2f78ae}.op-date,.hero-time{color:#35608a}.op-hint{color:#12304d}
+.panel{box-shadow:0 18px 44px rgba(40,90,140,.2),inset 0 1px 0 rgba(255,255,255,.9)}
+.h{font-style:italic;font-weight:400}
+.music-btn{background:rgba(255,255,255,.7)}
+.f input:not([type]),.f textarea{background:rgba(255,255,255,.8)}
+.err{color:#c0392b!important}
+.scroll-cue{border-color:#2f78ae}.scroll-cue span{background:#2f78ae}
+.art{color:#2f78ae}
+.sign strong{color:#2f78ae}
+.op-text,.hero-in{text-shadow:0 1px 14px rgba(255,255,255,.7)}
